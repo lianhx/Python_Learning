@@ -1,8 +1,4 @@
 {
     "python.pythonPath": "D:\\Anaconda3\\python.exe",
     "python.autoComplete.addBrackets": true,
-    "python.autoComplete.extraPaths": [
-        "D:\\Anaconda3\\Lib",
-        "D:\\Anaconda3\\Lib\\site-packages",
-        "D:\\Anaconda3\\pkgs"],
 }
