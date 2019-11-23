@@ -31,21 +31,54 @@ def FindBetween(alist, n=1, m=100):
     return aList2, set(alist)  # return a tuple
 
 
+for i in range(0, 100):
+    aList.append(random.randint(0, 100))
+
+
+# print(aList)
+
+
+# def TenIsOdd(alist: int):
+#     '''Find the tens digit is odd'''
+#     for i in alist:
+#         if i // 10 % 2 != 0:  # Get the tens digit
+#             print(i, end=' ')
+
+
+# TenIsOdd(aList)
+
+
+# def OneBiggerTen(alist):
+#     '''Find the ones digit is bigger than tens digit'''
+#     for i in alist:
+#         if ((i % 10) > (i // 10)) and (i > 10):
+#             print(i, end=' ')
+
+
+# OneBiggerTen(aList)
+
+
+# def FindBetween(alist, n=1, m=100):
+#     for i in alist:
+#         if n < i < m:
+
+
 def OneNotZero(n):
     return n % 10 != 0
 
 
 if __name__ == '__main__':
     print("Origin list: %s" % aList)
-    TenIsOdd(aList)
+    # TenIsOdd(aList)
     # OneBiggerTen(aList)
-    #
     # tup = FindBetween(aList, 20, 50)
     # print(tup[0])  # print the result
     # print(tup[1])
     #
     # print(list(filter(OneNotZero, aList)))
-    #
     # print(aList)
     #
-    # print(list(map(lambda x: x ** 3, aList)))
+    print(list(map(lambda x: x ** 3, aList)))
+
+    # newlist = list(filter(OneNotZero, aList))
+    # print(newlist)
